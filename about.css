@@ -5,6 +5,13 @@ body{
 .container{
     margin: 45px;
 }
+/* Header Styles */
+h1 {
+    color: pink;
+}
+h2 {
+    color: pink;
+}
 
 /* Nav Styles */
 .nav-wrapper{
@@ -41,9 +48,3 @@ body{
     color: orange;
 }
 
-h1 {
-    color: pink;
-}
-h2 {
-    color: pink;
-}
