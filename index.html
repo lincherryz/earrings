@@ -7,6 +7,8 @@
     -->
     <title>Lin Earrings</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <!--JAVASCRIPT CODE GOES HERE-->
+    <script src = "script.js" defer></script>
 </head>
 
 <body>
@@ -33,10 +35,6 @@
                 </div> 
             </div>       
         </div>
-        <!--CONTENTS INSIDE-->
-    <br>
-    <br>
-        
         <!--HOME INNER CONTENT-->       
         <div class= "content-wrapper"> <!--everything below nav bar-->
             <div class="portfolio-items-wrapper">
@@ -102,27 +100,8 @@
                         </div>
                     </div>
                 </div> 
-
             </div> 
         </div> 
-
-        
     <br>    
-
 </body>
-<!--JAVASCRIPT CODE GOES HERE-->
-<script>
-    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
-
-    portfolioItems.forEach(portfolioItem => { 
-        portfolioItem.addEventListener('mouseover', () => {
-            portfolioItem.childNodes[1].classList.add('img-darken');
-        })
-
-        portfolioItem.addEventListener('mouseout', () => {
-            portfolioItem.childNodes[1].classList.remove('img-darken');
-        })    
-    })
-</script>
-
 </html>
